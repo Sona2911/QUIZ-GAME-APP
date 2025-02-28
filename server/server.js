@@ -10,7 +10,9 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin :'https://quiz-game-app-pi.vercel.app/'
+}));
 
 
 const server = new ApolloServer({ typeDefs, resolvers });
