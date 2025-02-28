@@ -5,7 +5,7 @@ import App from './App.jsx';
 import './index.css'
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://quiz-game-app-2g17.onrender.com',
   cache: new InMemoryCache(),
 });
 
