@@ -11,7 +11,8 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin :'https://quiz-game-app-pi.vercel.app/'
+    origin: 'https://quiz-game-app-pi.vercel.app' // Removed trailing slash
+
 }));
 
 
